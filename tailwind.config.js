@@ -6,7 +6,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+
+    extend: {
+      fontFamily: {
+        charm: ['Charm'],
+      },
+      colors: {
+        primary: '#044e7f', 
+        secondary: '#ed7227',
+        third:'#39364f' 
+      },
+    },
   },
   plugins: [],
 }
