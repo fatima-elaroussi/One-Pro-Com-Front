@@ -3,10 +3,10 @@ import React from 'react';
 const Services: React.FC = () => {
   return (
     <div className=''>
-      <section className="py-5 md:py-8 lg:py-10">
+      <section className="py-5 ">
         <div className="container px-4 md:px-6">
           <div className="space-y-6 ">
-            <h2 className="text-3xl  text-center font-bold text-secondary tracking-tighter sm:text-4xl md:text-5xl">
+            <h2 className="text-3xl  text-center font-bold text-secondary tracking-tighter sm:text-4xl md:text-4xl">
               Nos Services
             </h2>
             {/* <p className="max-w-[600px] text-justify mx-auto md:text-xl/relaxed">
@@ -18,7 +18,7 @@ const Services: React.FC = () => {
             <div className="bg-background rounded-lg shadow-lg overflow-hidden transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
               <div className="p-6 flex flex-col items-center justify-center h-full bg-gradient-to-br from-gray-200">
                 <CalendarIcon className="w-6 h-6 text-primary" />
-                <h3 className="text-lg font-bold text-primary mt-2 mb-2">Planification d'événements</h3>
+                <h3 className="text-lg font-semibold text-primary mt-2 mb-2">Planification d'événements</h3>
                 <p className="text-muted-foreground mt-2 text-justify">
                   De la conception à l'exécution, nous gérons chaque aspect de vos besoins en planification d'événements.
                 </p>

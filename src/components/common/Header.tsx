@@ -101,7 +101,7 @@ const Header: React.FC = () => {
     <Drawer anchor="left" open={drawerOpen} onClose={toggleDrawer(false)}>
       <div className="grid gap-4 p-4" onClick={toggleDrawer(false)} onKeyDown={toggleDrawer(false)}>
         <NavLink to="#" className="flex items-center gap-2 text-lg font-semibold ">
-          <img src="src/assets/images/logo.webp" alt="" width="150" height="150" className=''/>
+          <img src="/images/logo.webp" alt="" width="150" height="150" className=''/>
         </NavLink>
         <NavLink to="#" className="flex items-center gap-2 text-sm font-medium transition-colors hover:text-[#ed7227]">
           Home

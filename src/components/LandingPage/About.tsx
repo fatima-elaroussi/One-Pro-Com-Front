@@ -9,7 +9,7 @@ const  About: React.FC = () =>{
         <div className="container px-4 md:px-6">
           <div className="grid grid-cols-2  sm:grid-cols-3 md:grid-cols-4
            lg:grid-cols-5 xl:gap-0  ">
-            <div className="flex flex-col items-center justify-center space-y-3">
+            <div className="flex flex-col items-center justify-center space-y-3 transition-transform duration-300 ease-in-out hover:-translate-y-2">
               <div className="rounded-full ">
                 <WorkflowIcon className="h-8 w-8 text-gray-500" />
                 
@@ -17,28 +17,28 @@ const  About: React.FC = () =>{
               <h3 className="text-sm md:text-lg font-normal text-gray-600">Collaboration</h3>
               
             </div>
-            <div className="flex flex-col items-center justify-center space-y-3">
+            <div className="flex flex-col items-center justify-center space-y-3 transition-transform duration-300 ease-in-out hover:-translate-y-2">
               <div className="rounded-full ">
                 <FocusIcon className="h-8 w-8 text-gray-500" />
               </div>
               <h3 className="text-sm md:text-lg font-normal text-gray-600">Attention to Detail</h3>
               
             </div>
-            <div className="flex flex-col items-center justify-center space-y-3">
+            <div className="flex flex-col items-center justify-center space-y-3 transition-transform duration-300 ease-in-out hover:-translate-y-2">
               <div className="rounded-full ">
                 <LightbulbIcon className="h-8 w-8 text-gray-500" />
               </div>
               <h3 className="text-sm md:text-lg font-normal text-gray-600">Innovation</h3>
              
             </div>
-            <div className="flex flex-col items-center justify-center space-y-3">
+            <div className="flex flex-col items-center justify-center space-y-3 transition-transform duration-300 ease-in-out hover:-translate-y-2">
               <div className="rounded-full ">
                 <HandshakeIcon className="h-8 w-8 text-gray-500" />
               </div>
               <h3 className="text-sm md:text-lg font-normal text-gray-600">Professionalism</h3>
              
             </div>
-            <div className="flex flex-col items-center justify-center space-y-3">
+            <div className="flex flex-col items-center justify-center space-y- transition-transform duration-300 ease-in-out hover:-translate-y-2">
               <div className="rounded-full ">
                 <PartyPopperIcon className="hidden md:block h-8 w-8 text-gray-500" />
               </div>
@@ -48,7 +48,10 @@ const  About: React.FC = () =>{
           </div>
         </div>
       </section>
-      <section className="w-full py-20  ">
+      <section className="w-full py-16  ">
+      <h6 className="text-2xl text-center mb-14 font-bold tracking-tighter flex justify-center items-center text-secondary sm:text-3xl md:text-4xl lg:text-4xl">
+              Élevez vos événements
+              </h6>
         <div className="container px-4 md:px-6">
           <div className="grid gap-8 lg:grid-cols-2 lg:gap-12 xl:gap-16">
             <img
@@ -58,12 +61,12 @@ const  About: React.FC = () =>{
               alt="Hero Image"
               className="mx-auto mt-2 rounded-xl object-cover object-center"
             />
-            <div className="flex flex-col space-y-8 text-center md:text-justify  lg:space-y-10">
-              <h6 className="text-2xl text-center font-bold tracking-tighter flex justify-center items-center text-secondary sm:text-3xl md:text-4xl lg:text-5xl">
-              Élevez vos événements
+            <div className="flex flex-col space-y-3 text-center mt-3  md:text-justify  lg:space-y-5">
+            <h6 className="text-lg font-semibold tracking-tighter flex  items-center text-[#EBB016] font-charm sm:text-xl md:text-2xl lg:text-3xl">
+              Qui Sommes Nous
               </h6>
-              <p className="max-w-[600px] text-justify text-base md:text-xl mx-auto ">
-              <span className='text-primary text-xl font-bold font-charm'><span className='text-3xl'>O</span>ne<span className='text-3xl'>P</span>ro</span><span className='text-secondary font-bold font-charm'><span className='text-3xl'>C</span>om</span>, nous nous spécialisons dans l'organisation d'événements professionnels de haut calibre. Que ce soit pour des conférences, des séminaires ou des galas d'entreprise, notre équipe dédiée veille à chaque détail pour garantir une expérience impeccable et mémorable pour vos invités. Des fonctions d'entreprise aux rassemblements sociaux, nous créons des expériences inoubliables en prenant soin de chaque détail pour assurer le succès de votre événement.
+              <p className="max-w-[600px] text-justify p-4 text-base md:text-xl mx-auto  ">
+              <span className='text-primary  text-xl font-bold font-charm'><span className='text-3xl'>O</span>ne<span className='text-3xl'>P</span>ro</span><span className='text-secondary font-bold font-charm'><span className='text-3xl'>C</span>om</span>, nous nous spécialisons dans l'organisation d'événements professionnels de haut calibre. Que ce soit pour des conférences, des séminaires ou des galas d'entreprise, notre équipe dédiée veille à chaque détail pour garantir une expérience impeccable et mémorable pour vos invités. Des fonctions d'entreprise aux rassemblements sociaux, nous créons des expériences inoubliables en prenant soin de chaque détail pour assurer le succès de votre événement.
               </p>
             </div>
           </div>
