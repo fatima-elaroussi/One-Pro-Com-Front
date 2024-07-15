@@ -1,6 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const Services: React.FC = () => {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+    });
+  }, []);
+
   return (
     <div className=''>
       <section className="py-16 ">
@@ -14,9 +24,9 @@ const Services: React.FC = () => {
               Nous offrons une large gamme de services professionnels de planification d'événements pour aider à faire de vos événements une réussite.
             </p> */}
           </div>
-          <div className="grid grid-cols-1 gap-6 mt-16 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <div className="grid grid-cols-1 gap-6 mt-16 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4" >
             <div className="bg-background rounded-lg shadow-lg overflow-hidden transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
-              <div className="p-6 flex flex-col items-center justify-center h-full bg-gradient-to-br from-gray-200">
+              <div className="p-6 flex flex-col items-center justify-center h-full bg-gradient-to-br from-gray-200" data-aos="zoom-out">
                 <CalendarIcon className="w-6 h-6 text-primary" />
                 <h3 className="text-lg font-semibold text-primary mt-2 mb-2">Planification d'événements</h3>
                 <p className="text-muted-foreground mt-2 text-justify">
@@ -24,7 +34,7 @@ const Services: React.FC = () => {
                 </p>
               </div>
             </div>
-            <div className="bg-background rounded-lg shadow-lg overflow-hidden transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
+            <div className="bg-background rounded-lg shadow-lg overflow-hidden transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl" data-aos="zoom-out" >
               <div className="p-6 flex flex-col items-center justify-center h-full bg-gradient-to-br from-gray-200">
                 <MegaphoneIcon className="w-6 h-6 text-primary" />
                 <h3 className="text-lg font-semibold text-primary mt-2 mb-2">Promotion d'événements</h3>
@@ -33,7 +43,7 @@ const Services: React.FC = () => {
                 </p>
               </div>
             </div>
-            <div className="bg-background rounded-lg shadow-lg overflow-hidden transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
+            <div className="bg-background rounded-lg shadow-lg overflow-hidden transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl" data-aos="zoom-out">
               <div className="p-6 flex flex-col items-center justify-center h-full bg-gradient-to-br from-gray-200">
                 <ClipboardListIcon className="w-6 h-6 text-primary" />
                 <h3 className="text-lg font-semibold text-primary mt-2 mb-2">Gestion d'événements</h3>
@@ -42,7 +52,7 @@ const Services: React.FC = () => {
                 </p>
               </div>
             </div>
-            <div className="bg-background rounded-lg shadow-lg overflow-hidden transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
+            <div className="bg-background rounded-lg shadow-lg overflow-hidden transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl" data-aos="zoom-out">
               <div className="p-6 flex flex-col items-center justify-center h-full bg-gradient-to-br from-gray-200">
                 <BriefcaseIcon className="w-6 h-6 text-primary" />
                 <h3 className="text-lg font-semibold text-primary mt-2 mb-2">Événements d'entreprise</h3>

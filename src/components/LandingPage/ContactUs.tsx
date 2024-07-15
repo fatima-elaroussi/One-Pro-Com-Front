@@ -3,7 +3,7 @@ import React from 'react'
 const ContactUs:React.FC=()=> {
   return (
     
-    <div className="border border-solid shadow-2xl my-10 mx-auto  w-72 md:w-2/3 ">
+    <div className="border border-solid shadow-2xl my-10 md:mx-auto  w-auto md:w-2/3 ">
     <h2 className=" md:text-4xl tracking-tight mt-10 font-bold text-center text-secondary ">Contactez Nous</h2>
 
     <div className="md:grid md:grid-cols-2 md:gap-5 gap-0 flex flex-col justify-center items-center ">
@@ -64,7 +64,7 @@ const ContactUs:React.FC=()=> {
       
       <div className='px-1 md:mt-10 mt-7 md:w-3/4'>
     
-        <iframe className='w-64 mx-auto h-60 md:w-96' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.6773269233604!2d-7.644111025267424!3d33.587726242117014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d2e8d0b537d3%3A0xa4c83808490333a7!2sWeStartUp%20%3A%20CR%C3%89ATION%20ET%20DOMICILIATION%20d&#39;entreprise%20%7C%20Espaces%20de%20Coworking%20%C3%A0%20Casablanca!5e0!3m2!1sfr!2sma!4v1721073700935!5m2!1sfr!2sma" loading="lazy"></iframe>  
+        <iframe className='w-64 mx-auto h-60 md:w-56 xl:w-96' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.6773269233604!2d-7.644111025267424!3d33.587726242117014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d2e8d0b537d3%3A0xa4c83808490333a7!2sWeStartUp%20%3A%20CR%C3%89ATION%20ET%20DOMICILIATION%20d&#39;entreprise%20%7C%20Espaces%20de%20Coworking%20%C3%A0%20Casablanca!5e0!3m2!1sfr!2sma!4v1721073700935!5m2!1sfr!2sma" loading="lazy"></iframe>  
       </div>
     </div>
     </div>

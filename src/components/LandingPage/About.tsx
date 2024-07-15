@@ -1,6 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const  About: React.FC = () =>{
+
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
+  
   return (
          
       <div>
@@ -61,7 +70,7 @@ const  About: React.FC = () =>{
               alt="Hero Image"
               className="mx-auto mt-2  rounded-bl-full  object-cover object-center"
             />
-            <div className="flex flex-col space-y-3 text-center mt-3  md:text-justify  lg:space-y-5">
+            <div className="flex flex-col space-y-3 text-center mt-3  md:text-justify  lg:space-y-5" data-aos="fade-left">
             <h6 className="text-lg font-semibold tracking-tighter flex  items-center text-[#EBB016] font-charm sm:text-xl md:text-2xl lg:text-3xl">
               Qui Sommes Nous
               </h6>
