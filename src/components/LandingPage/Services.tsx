@@ -9,10 +9,10 @@ const Services: React.FC = () => {
             <h2 className="text-3xl  text-center font-bold text-secondary tracking-tighter sm:text-4xl md:text-5xl">
               Nos Services
             </h2>
-            <p className="max-w-[600px] text-justify mx-auto md:text-xl/relaxed">
+            {/* <p className="max-w-[600px] text-justify mx-auto md:text-xl/relaxed">
             
               Nous offrons une large gamme de services professionnels de planification d'événements pour aider à faire de vos événements une réussite.
-            </p>
+            </p> */}
           </div>
           <div className="grid grid-cols-1 gap-6 mt-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             <div className="bg-background rounded-lg shadow-lg overflow-hidden transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
