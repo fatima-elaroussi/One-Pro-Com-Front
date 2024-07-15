@@ -41,7 +41,7 @@ const Header: React.FC = () => {
     <header className="flex h-16 items-center justify-between bg-white md:fixed w-full px-4 md:px-6 ">
       <div className="flex items-center md:gap-5  lg:gap-28 xl:gap-48  ">
       <NavLink to="#" className="flex items-center  ">
-      <img src="src/assets/images/logo.webp" alt="" width="100" height="100" className=''/>
+      <img src="/images/logo.webp" alt="" width="100" height="100" className=''/>
     </NavLink>
     <div className="flex-1 flex justify-center">
       <nav className="hidden md:flex md:items-center  md:gap-8 lg:gap-54 xl:gap-64">
