@@ -52,7 +52,7 @@ const  About: React.FC = () =>{
         <div className="container px-4 md:px-6">
           <div className="grid gap-8 lg:grid-cols-2 lg:gap-12 xl:gap-16">
             <img
-              src="src/assets/images/about2.webp"
+              src="images/about2.webp"
               width="800"
               height="600"
               alt="Hero Image"
