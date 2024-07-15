@@ -3,7 +3,7 @@ import React from 'react';
 const Services: React.FC = () => {
   return (
     <div className=''>
-      <section className="py-5 ">
+      <section className="py-16 ">
         <div className="container px-4 md:px-6">
           <div className="space-y-6 ">
             <h2 className="text-3xl  text-center font-bold text-secondary tracking-tighter sm:text-4xl md:text-4xl">
@@ -14,7 +14,7 @@ const Services: React.FC = () => {
               Nous offrons une large gamme de services professionnels de planification d'événements pour aider à faire de vos événements une réussite.
             </p> */}
           </div>
-          <div className="grid grid-cols-1 gap-6 mt-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <div className="grid grid-cols-1 gap-6 mt-16 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             <div className="bg-background rounded-lg shadow-lg overflow-hidden transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
               <div className="p-6 flex flex-col items-center justify-center h-full bg-gradient-to-br from-gray-200">
                 <CalendarIcon className="w-6 h-6 text-primary" />

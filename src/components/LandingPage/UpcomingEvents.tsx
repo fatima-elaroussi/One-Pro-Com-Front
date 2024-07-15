@@ -5,7 +5,7 @@ const UpcomingEvents: React.FC = () => {
   return (
     <section className="bg-background py-12 md:py-16 lg:py-20">
       <div className="container px-4 md:px-6">
-        <div className="mb-8 md:mb-10 lg:mb-12">
+        <div className="mb-8 md:mb-10 lg:mb-16">
           <h2 className="text-2xl font-bold text-secondary text-center md:text-3xl lg:text-4xl">Événements à venir</h2>
         </div>
         <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">

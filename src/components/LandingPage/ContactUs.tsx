@@ -1,99 +1,80 @@
+import React from 'react'
 
-
-const Footer: React.FC = () =>  {
+const ContactUs:React.FC=()=> {
   return (
-    <div className="mt-20 border border-solid h-full bg-white  pt-8 pl-10">
-      <div className="grid md:grid-cols-4 grid-cols-2 gap-5 lg:gap-20 ">
-        <div className="mt-1 ">
-          <h2 className=" font-bold text-l md:text-2xl"><span className='text-primary text-xl font-bold font-charm'><span className='text-3xl'>O</span>ne<span className='text-3xl'>P</span>ro</span><span className='text-secondary font-bold font-charm'><span className='text-3xl'>C</span>om</span>
-          </h2>
-          <h6 className="mt-6 text-gray-500 text-justify text-xs md:text-sm">
-          ONE PRO COM est une agence de communication opérationnelle qui vous accompagne dans la promotion de vos marques et produits. Nous proposons des solutions clés en main à nos partenaires pour développer la stratégie commerciale de leurs produits et services.
-         
-          </h6>
-          
-        </div>
-        <div className="">
-          <h3 className="text-primary font-semibold mt-5">Informations</h3>
-          <ul className="text-gray-500">
-            <li className="mt-5 text-xs md:text-sm">
-            Acceuil
-            </li>
-            <li className="mt-2 text-xs md:text-sm">
-            Nos Services
-            </li>
+    
+    <div className="border border-solid shadow-2xl my-10 mx-auto  w-72 md:w-2/3 ">
+    <h2 className=" md:text-4xl tracking-tight mt-10 font-bold text-center text-secondary ">Contactez Nous</h2>
 
-            <li className="mt-2 text-xs md:text-sm">
-            Qui Sommes Nous
-            </li>
-            <li className="mt-2 text-xs md:text-sm">
-            Contactez Nous
-            </li>
-          </ul>
+    <div className="md:grid md:grid-cols-2 md:gap-5 gap-0 flex flex-col justify-center items-center ">
+    <section className="bg-whit w-52 md:w-full">
+<div className="py-8 lg:py-16 px-4 mx-auto   max-w-screen-md">
+    <p className="mb-8 lg:mb-8 font-light  text-black md:text-lg text-xs">Laissez-nous un message</p>
+    <form action="#" className="space-y-8">
+      
+        <div>
+            <label htmlFor="subject" className="block mb-2 text-sm font-medium text-gray-400">Nom</label>
+            <input type="text" id="subject" className="block p-3 w-full text-xs text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500" placeholder="Faites-nous savoir comment nous pouvons vous aider." required/>
         </div>
-        <div className="">
-          <h3 className="text-primary font-semibold mt-5">Services</h3>
-          <ul className="text-gray-500">
-            <li className="mt-5 text-xs md:text-sm">
-            Planification d'événements
-            </li>
-            <li className="mt-2 text-xs md:text-sm">
-            Promotion d'événements
-            </li>
+        <div>
+            <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-400 ">Email</label>
+            <input type="email" id="email" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-xs rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 " placeholder="email@gmail.com" required/>
+        </div>
+        <div className="sm:col-span-2">
+            <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-400 ">Votre message</label>
+            <textarea id="message" rows={6} className="block p-2.5 w-full text-xs text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 " placeholder="Laissez un commentaire..."></textarea>
+        </div>
+        <button type="submit" className="py-3 px-5 text-sm font-medium text-center w-full border text-primary border-gray-400 hover:text-white rounded-lg hover:bg-primary   ">Envoyer </button>
+    </form>
+</div>
+</section>
 
-            <li className="mt-2 text-xs md:text-sm">
-            Gestion d'événements
-            </li>
-            <li className="mt-2 text-xs md:text-sm ">
-            Événements d'entreprise
-            </li>
-          </ul>
-        </div>
-   
-        <div className=" mt-5">
-          <h3 className="text-primary font-semibold ">Contact</h3>
-          <div className="flex mt-3">
-          <MapPinIcon className="mr-3 text-gray-500"/>
+<div className='md:mt-30 mt-3 '>
+
+<div className="flex mt-3">
+          <MapPinIcon className="mr-3 "/>
           <h6 className=" text-xs  md:text-sm text-gray-500">
           6, rue 6 Octobre Bd el Massira al Khadra, Quartier Racine
            </h6>
           </div>
 <div className="flex mt-5">
   
- <PhoneIcon className="mr-3 text-gray-500"/> 
+ <PhoneIcon className="mr-3 "/> 
 <h6 className=" text-xs  md:text-sm text-gray-500">
            
            +212 675 416 267
            </h6>
 </div>
         <div className="flex mt-5">
-          <MailIcon className="mr-3 text-gray-500"/>
+          <MailIcon className="mr-3 "/>
         <h6 className=" text-xs  md:text-sm text-gray-500">
           
           contact@oneprocom.ma
            </h6>
           
-          </div>   
-          <div className="flex gap-7 mt-5">
-            <a href="https://www.facebook.com/profile.php?id=100090262730898&mibextid=ZbWKwL"> <FacebookIcon className="text-gray-500"/></a>
-            <a href="https://www.instagram.com/oneprocom/"> <InstagramIcon className="text-gray-500"/></a>
-            <a href="https://www.linkedin.com/in/one-pro-com-8a56a9268"><LinkedinIcon className="text-gray-500"/> </a>
+          </div>  
+      {/* <h6  className='text-xs p-2  '>6, rue 6 Octobre Bd el Massira al Khadra, Quartier Racine</h6>
+      <h6  className='text-xs p-2 mt-5'>+212 675 416 267</h6>
+      <h6  className='text-xs p-2 mt-5'>contact@oneprocom.ma</h6> */}
+      <div className="flex gap-5 mt-5">
+            <a href="https://www.facebook.com/profile.php?id=100090262730898&mibextid=ZbWKwL"> <FacebookIcon /></a>
+            <a href="https://www.instagram.com/oneprocom/"> <InstagramIcon /></a>
+            <a href="https://www.linkedin.com/in/one-pro-com-8a56a9268"><LinkedinIcon /> </a>
            </div>
-          {/* <input className=" w-2/3 md:w-full text-xs  md:text-sm mt-4 p-5 pl-0   bg-[#F5F5F5] text-[#9B9B9B] rounded-lg" type="email" placeholder="Your email address" /> */}
-          <button className="w-2/3 bg-secondary text-sm mt-4 text-white rounded-lg p-3">Subscribe</button>
-        </div>
+      
+      <div className='px-1 md:mt-10 mt-7 md:w-3/4'>
+    
+        <iframe className='w-64 mx-auto h-60 md:w-96' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.6773269233604!2d-7.644111025267424!3d33.587726242117014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d2e8d0b537d3%3A0xa4c83808490333a7!2sWeStartUp%20%3A%20CR%C3%89ATION%20ET%20DOMICILIATION%20d&#39;entreprise%20%7C%20Espaces%20de%20Coworking%20%C3%A0%20Casablanca!5e0!3m2!1sfr!2sma!4v1721073700935!5m2!1sfr!2sma" loading="lazy"></iframe>  
       </div>
-      <footer className="mt-10 md:flex ">
-        <div className="text-gray-500 mt-3 md:block hidden w-1/3 text-xs">
-          © 2024 OneProCom. All rights reserved.
-        </div>
-        
-      </footer>
     </div>
+    </div>
+
+   
+  </div>
   )
 }
 
-export default Footer;
+export default ContactUs;
 
 const FacebookIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => {
   return (
@@ -158,7 +139,6 @@ const LinkedinIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) =>  {
   )
 }
 
-
 const MailIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) =>  {
   return (
     <svg
@@ -185,8 +165,8 @@ const MapPinIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) =>  {
     <svg
       {...props}
       xmlns="http://www.w3.org/2000/svg"
-      width="30"
-      height="34"
+      width="20"
+      height="20"
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
@@ -206,7 +186,7 @@ const PhoneIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) =>  {
     <svg
       {...props}
       xmlns="http://www.w3.org/2000/svg"
-      width="19"
+      width="20"
       height="20"
       viewBox="0 0 24 24"
       fill="none"
@@ -219,5 +199,4 @@ const PhoneIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) =>  {
     </svg>
   )
 }
-
 

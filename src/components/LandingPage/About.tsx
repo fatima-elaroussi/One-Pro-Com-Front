@@ -5,7 +5,7 @@ const  About: React.FC = () =>{
          
       <div>
 
-<section className="w-full pt-9 ">
+<section className="w-full pt-10 ">
         <div className="container px-4 md:px-6">
           <div className="grid grid-cols-2  sm:grid-cols-3 md:grid-cols-4
            lg:grid-cols-5 xl:gap-0  ">
@@ -49,7 +49,7 @@ const  About: React.FC = () =>{
         </div>
       </section>
       <section className="w-full py-16  ">
-      <h6 className="text-2xl text-center mb-14 font-bold tracking-tighter flex justify-center items-center text-secondary sm:text-3xl md:text-4xl lg:text-4xl">
+      <h6 className="text-2xl text-center mb-16 font-bold tracking-tighter flex justify-center items-center text-secondary sm:text-3xl md:text-4xl lg:text-4xl">
               Élevez vos événements
               </h6>
         <div className="container px-4 md:px-6">
@@ -59,7 +59,7 @@ const  About: React.FC = () =>{
               width="800"
               height="600"
               alt="Hero Image"
-              className="mx-auto mt-2 rounded-xl object-cover object-center"
+              className="mx-auto mt-2  rounded-bl-full  object-cover object-center"
             />
             <div className="flex flex-col space-y-3 text-center mt-3  md:text-justify  lg:space-y-5">
             <h6 className="text-lg font-semibold tracking-tighter flex  items-center text-[#EBB016] font-charm sm:text-xl md:text-2xl lg:text-3xl">
