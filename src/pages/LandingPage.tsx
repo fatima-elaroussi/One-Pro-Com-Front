@@ -4,6 +4,7 @@ import Services from '../components/LandingPage/Services'
 import About from '../components/LandingPage/About'
 import UpcomingEvents from '../components/LandingPage/UpcomingEvents'
 import ContactUs from '../components/LandingPage/ContactUs'
+import SponsorSubmition from '../components/LandingPage/SponsorSubmition'
 const LandingPage :React.FC=()=> {
   return (
     <div>
@@ -11,6 +12,7 @@ const LandingPage :React.FC=()=> {
         <About/>
         <Services/>
         <UpcomingEvents/>
+        <SponsorSubmition/>
         <ContactUs/>
         
         
